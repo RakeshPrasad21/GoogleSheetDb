@@ -25,7 +25,7 @@ value[1].
 
 #### Example
 
-This example uses the [Food spreadsheet][food_ss]. [Live demo](http://stuartk.com/gooss/examples/food.html)
+This example uses the [Food spreadsheet][food_ss]. [Live demo](https://rakeshprasad21.github.io/GoogleSheetDb/examples/food.html)
 
     gsdb.data(
       {
@@ -77,7 +77,7 @@ Underscore library onto your page).
 
 #### Example
 
-This example uses the data from the above example. [Live demo](http://stuartk.com/gooss/examples/template.html)
+This example uses the data from the above example. [Live demo](https://rakeshprasad21.github.io/GoogleSheetDb/examples/template.html)
 
     <body>
       <h1>Menu</h1>
@@ -112,11 +112,6 @@ Will result in the DOM looking like:
       </script>
     </body>
 
-Full examples
--------------
-
-See a full example at http://stuartk.com/bundle
-
 Quick start
 -----------
 
@@ -130,7 +125,7 @@ Quick start
 
 ### Website
 
-  1. Clone [this repository](https://github.com/Stuk/gooss-quickstart)
+  1. Clone [this repository](https://rakeshprasad21.github.io/GoogleSheetDb)
   2. In `index.html` set the `url` to the one from above.
   3. Code your template.
   4. Push to Github or your favourite static file host!
