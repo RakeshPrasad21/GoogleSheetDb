@@ -1,11 +1,10 @@
-// Gooss.js
+// gsdb.js
 // Use a Google spreadsheet as a database, no server-side code needed.
 //
-// Copyright (c) 2011 Stuart Knightley
-// Gooss.js is freely distributable under the MIT license.
-// See https://stuartk.com/gooss/ for more details and documentation.
+// Copyright (c) 2022 Rakesh Prasad
+// gsdb.js is freely distributable under the MIT license.
 
-var gooss = (function() {
+var gsdb = (function() {
   "use strict";
 
   // Process the response from the Google Docs query into a nice JS object.
