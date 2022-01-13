@@ -1,4 +1,4 @@
-gooss.js
+gsdb.js
 ========
 
 Use a Google spreadsheet as a database, no server-side code needed.
@@ -6,7 +6,7 @@ Use a Google spreadsheet as a database, no server-side code needed.
 API
 ---
 
-### `gooss.data(worksheets, callback)`
+### `gsdb.data(worksheets, callback)`
 
 The function will retrieve the given worksheets from Google, arrange the data
 into nice objects, and call your callback with the data when all the worksheets
@@ -27,7 +27,7 @@ value[1].
 
 This example uses the [Food spreadsheet][food_ss]. [Live demo](http://stuartk.com/gooss/examples/food.html)
 
-    gooss.data(
+    gsdb.data(
       {
         Food: {
           url: "https://docs.google.com/spreadsheet/ccc?key=0Ar35F5WUAjXedE9SMDRnT0dmUXdNQmJxeG5CRXpjSVE",
@@ -59,7 +59,7 @@ This will log to the console something like ("…" is more data):
     }
 
 
-### `gooss.template(data [, templater])`
+### `gsdb.template(data [, templater])`
 
 This function will find all `<script>` tags with type `text/html` in the body
 of the page and replace them with the rendered template wrapped inside a
@@ -91,8 +91,8 @@ This example uses the data from the above example. [Live demo](http://stuartk.co
 
       <script type="text/javascript">
         // Data has been set elsewhere. This line would probably be inside the
-        // gooss.data callback function.
-        gooss.template(data);
+        // gsdb.data callback function.
+        gsdb.template(data);
       </script>
     </body>
 
